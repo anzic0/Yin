@@ -6,7 +6,7 @@ setup(
     version='0.3',
     description="Fast Python implementation of the Yin algorithm: a fundamental frequency estimator",
     author=["Patrice Guyot"],
-    pymodules=["gcmi"],
+    py_modules=["yin"],
     install_requires=['numpy', 'scipy', 'matplotlib'],
 )
 
